@@ -1,8 +1,11 @@
 {
   "name": "template-frontend",
   "private": true,
+  "homepage": "https://Fangornito.github.io/La-Ptite-Lucarne",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -27,6 +30,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "gh-pages": "^4.0.0",
     "husky": "^7.0.0",
     "prettier": "^2.5.1",
     "vite": "^2.8.0"
